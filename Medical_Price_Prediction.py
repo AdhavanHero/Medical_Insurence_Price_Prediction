@@ -9,7 +9,7 @@ import numpy as np
 import pickle 
 import streamlit as st
 
-loaded_model = pickle.load(open(r"C:\Users\Asus\Downloads\Cost_pred.sav","rb"))
+loaded_model = pickle.load(open(r"Cost_pred.sav","rb"))
 
 def health_insurance_cost(input_data):
     input_data_as_np_array = np.asarray(input_data)
